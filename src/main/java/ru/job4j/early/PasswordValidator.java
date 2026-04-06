@@ -27,6 +27,7 @@ public class PasswordValidator {
                 hasDigit = true;
             } else {
                 hasSpecial = true;
+                break;
             }
         }
 
